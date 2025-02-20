@@ -1,0 +1,193 @@
+Vishal's - personal portfolio
+
+# HEDER
+
+Vishal.
+
+En
+Ar
+
+aria-label = Change Theme
+title = Change Theme
+
+aria-label = Toggle Menu
+title = Toggle Menu
+
+Home.
+About.
+Skills.
+Portfolio.
+Contact.
+
+
+
+# HERO
+
+alt = A man with a happy expression
+
+Get in touch
+
+<ion-icon name="logo-facebook"></ion-icon>
+Facebook
+
+<ion-icon name="logo-twitter"></ion-icon>
+Twitter
+
+<ion-icon name="logo-linkedin"></ion-icon>
+Linkedin
+
+Scroll
+
+
+
+# STATS
+
+alt = Badge icon
+
+2+
+Years of Experience
+
+<ion-icon name="chevron-forward-outline"></ion-icon>
+
+alt = Checkmark icon
+
+Completed Projects
+
+
+
+# ABOUT
+
+alt = A man with a thinking expression
+
+About me
+
+Software Engineer with over 2 years of experience in full-stack development, software 
+engineering, and data engineering. Skilled in Java, Python, SQL, JavaScript, React.js, and cloud 
+computing (AWS, Azure, GCP). Experienced in designing software solutions, optimizing data 
+pipelines, and ensuring UI/UX experiences. Strong knowledge in ETL, data modeling, API 
+development, and performance optimization. Passionate about leveraging technology to create 
+solutions. Seeking to apply my technical expertise and problem-solving abilities in a challenging 
+environment. 
+
+
+Hire me
+
+Download cv
+
+
+
+# SKILLS
+
+My skills
+
+What My Programming Skills Included?
+
+
+Skills
+Tools
+
+HTML5
+alt = HTML5 logo
+
+CSS3
+alt = CSS3 logo
+
+JavaScript
+alt = JavaScript logo
+
+TypeScript
+alt = TypeScript logo
+
+jQuery
+alt = jQuery logo
+
+Angular
+alt = Angular logo
+
+React
+alt = React logo
+
+Firebase
+alt = Firebase logo
+
+Git
+alt = Git logo
+
+Npm
+alt = Npm logo
+
+Command Line
+alt = Command Line logo
+
+VS Code
+alt = VS Code logo
+
+Adobe XD
+alt = Adobe XD logo
+
+
+
+# WOKRS
+
+My Works
+
+See My Works Which Will Amaze You!
+
+Load more work
+
+
+# CONTACT
+
+Contact
+
+Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+
+<ion-icon name="location-outline"></ion-icon>
+Address:
+
+<ion-icon name="call-outline"></ion-icon>
+Phone:
+
+<ion-icon name="mail-outline"></ion-icon>
+Email:
+info@vishal.com
+support@vishal.com
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+
+Name
+<ion-icon name="person-circle"></ion-icon>
+placeholder = e.g . vishal
+
+Email
+<ion-icon name="mail"></ion-icon>
+placeholder = e.g vishale@mail.com
+
+Phone
+<ion-icon name="call"></ion-icon>
+placeholder = Phone Number
+
+Message
+<ion-icon name="chatbubbles"></ion-icon>
+placeholder = Write message...
+
+Send
+
+
+
+# FOOTER
+
+Vishal.
+
+&copy; 2025 codewithsadee. All rights reserved
+
+
+
+# GO TO TOP
+
+title = Go to Top
+
+<ion-icon name="arrow-up"></ion-icon>

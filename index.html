@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishal's - Personal Portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Vishal Kumar<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects.</a>
+          </li>
+
+          <li>
+            <a href="#certification" class="navbar-link">Certifications.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner-sm.png" alt="A man with a happy expression"
+              class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">Software Engineer</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <!--
+          <li>
+            <a href="" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="https://www.linkedin.com/in/nvk-swe" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+          <li>
+          <a href="https://github.com/Vishalkumar03" class="hero-social-link">
+            <ion-icon name="logo-github"></ion-icon>
+            <div class="tooltip">GitHub</div>
+          </a>
+        </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+
+          <li>
+            <a href="#" class="stats-card work-experience-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                2+ <strong>Years of Experience</strong>
+              </h2>
+
+              <ion-icon name="chevron-down-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#project" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                5+ <strong>Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-down-outline"></ion-icon>
+
+            </a>
+          </li>
+
+
+        </ul>
+      </section>
+
+
+<!-- Work Experience Modal -->
+<div id="experienceModal" class="modal">
+  <div class="modal-content">
+    <span class="close" aria-label="Close Modal">&times;</span>
+    <h2>Work Experience</h2><br>
+    <div class="experience-details">
+      <p>
+        <strong>Sapot Systems Inc - Texas, USA.</strong><br>
+        <em>Java Developer (Sep 2024 - Dec 2024)</em><br><br>
+        As a Java Developer at Sapot Systems, I focused on building high-performance software solutions using Java, Spring Boot, and SQL. My efforts ensured the reliability and availability of the system, achieving a 99.9% uptime. I played a key role in optimizing and developing RESTful APIs, which resulted in a 30% improvement in response times and seamless integration with other systems. Additionally, I worked on designing and maintaining ETL pipelines to efficiently process and transform data, which ensured timely data delivery across the platform. To improve the accessibility of key data insights, I leveraged Tableau to create dynamic and interactive dashboards, providing stakeholders with real-time access to data and actionable insights. I also implemented rigorous testing strategies, including unit, integration, and regression testing, to ensure the robustness of the applications. Furthermore, I authored clear and detailed technical documentation, streamlining the onboarding process and reducing onboarding time by 15%. Collaborating closely with cross-functional teams, I helped troubleshoot and resolve system bugs, leading to a significant 25% reduction in error rates.<br><br><br>        
+      </p>
+      <p>
+        <strong>Wipro Limited - Telangana, India. </strong><br>
+        <em>Software Development Engineer (Aug 2021 - Dec 2022)</em><br><br>
+        During my time at Wipro Limited as a Software Development Engineer, I had the opportunity to work on a variety of full-stack applications, where I used Java, Python, JavaScript, and React.js to significantly enhance system performance and efficiency by 30%. A key responsibility was designing and optimizing ETL pipelines that facilitated the seamless transformation and processing of large datasets, resulting in a 40% boost in query performance. I was also instrumental in the development of interactive Tableau dashboards that translated complex data into easy-to-understand visual insights, helping business teams make informed, data-driven decisions. As part of my role, I was responsible for managing the entire software development lifecycle (SDLC) of projects, ensuring all tasks were completed on time and met the required standards. My experience also included extensive front-end testing, where I ensured that the user interface and user experience (UI/UX) were intuitive, consistent across browsers, and thoroughly tested for functionality. To enhance team collaboration, I contributed by drafting technical specifications, user manuals, and comprehensive documentation that helped improve knowledge sharing and kept the team aligned throughout the project lifecycle. My ability to combine software engineering expertise with data optimization and visualization techniques allowed me to deliver solutions that were both technically sound and user-friendly.<br><br><br> 
+      </p>
+      <p>
+        <strong>Smartbridge - Telangana, India.</strong><br>
+        <em>Machine Learning Intern (May 2019 - Dec 2019)</em><br><br>
+        During my internship at Smartbridge in collaboration with IBM, I had the opportunity to dive deep into machine learning and artificial intelligence. I worked on developing and implementing machine learning models, focusing on data pre-processing, feature selection, and model training. I gained hands-on experience with various machine learning algorithms, including regression, classification, and clustering techniques, and applied them to real-world datasets. One of my key tasks involved using IBM's cloud-based AI tools to train models and optimize them for better accuracy and performance. Additionally, I contributed to the evaluation and fine-tuning of models, ensuring they met business requirements and performance standards. Throughout the internship, I collaborated closely with data scientists and engineers to gain valuable insights into model deployment and integration processes. The experience further honed my ability to work with large datasets and apply machine learning principles to solve complex problems in a collaborative environment.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Scripts -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Existing scripts ...
+
+    // Work Experience Modal functionality
+    const workExperienceCard = document.querySelector('.work-experience-card');
+    const experienceModal = document.getElementById('experienceModal');
+    const modalCloseBtn = experienceModal.querySelector('.close');
+
+    // When the work experience card is clicked, open the modal
+    workExperienceCard.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent default link behavior
+      experienceModal.style.display = 'block';
+    });
+
+    // Close the modal when the close button is clicked
+    modalCloseBtn.addEventListener('click', () => {
+      experienceModal.style.display = 'none';
+    });
+
+    // Optional: Close the modal when clicking outside the modal content
+    window.addEventListener('click', (e) => {
+      if (e.target === experienceModal) {
+        experienceModal.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+</body>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.png" alt="A man with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <h2 class="h3 section-title">About Me</h2>
+
+          <p class="section-text">
+            I am a Master’s candidate in Computer Science with over 2+ years of experience in software development, data engineering, and cloud technologies. I hold the "Google Business Intelligence Professional Certificate" and the "CertNexus Certified Data Science Practitioner Certificate."
+            Proficient in C, Java, Python, HTML/CSS, JavaScript, SQL, and React.js, I specialize in ETL processes, data transformation, and AWS Glue for seamless data workflows. I have a strong foundation in object-oriented design, full-stack development, and cloud computing (AWS, Azure, GCP). Additionally, I am skilled in data visualization using Tableau, which allows me to communicate insights effectively through interactive dashboards.
+            My expertise extends to software solution design, data pipeline optimization, UI/UX enhancement, API development, and performance optimization. Notable projects include an AI Resume Analyzer leveraging NLP and a Event Management android application. I thrive in challenging roles that combine technical skills, data-driven insights, and creative problem-solving to drive innovation and growth.
+            I am passionate about leveraging technology to create impactful solutions and am eager to contribute my skills in a dynamic, challenging environment.
+            Feel free to reach out to discuss how I can contribute to your team! 
+          </p>
+
+          <div class="btn-group">
+            <a href="#contact" class="btn btn-secondary">Hire me</a>
+
+            <!-- Add Resume if want to do
+
+            <a href="Resume_URL" class="btn btn-primary" download>Download cv</a>-->
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Java</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/java.png" alt="Java logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Python</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/python.png" alt="Python logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sql.png" alt="SQL logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML% logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">PHP</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/php.png" alt="PHP logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Scala</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/scala.png" alt="Scala logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">OOP</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/oop.png" alt="OOP logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AWS-S3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/aws-s3.png" alt="AWS-S3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AWS-Glue</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/aws_glue.png" alt="AWS_GLUE logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AWS-Redshift</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/amazon_redshift.png" alt="Amazon-Redshift logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AWS-Lambda</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/awslambda.png" alt="AWS-Lambda logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Azure</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/azure.png" alt="Azure logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Google-BigQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/google_bigquery.png" alt="Google-BigQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ReactJs</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="ReactJs logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">NodeJs</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/nodejs.png" alt="NodeJs logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">D3Js</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/d3js.png" alt="D3Js logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ETL</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/etl.png" alt="ETL logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Selenium</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/selenium.png" alt="Selenium logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Cucumber</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/cucumber.png" alt="Cucumber logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Postman</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/postman.png" alt="Postman logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Android-Studio</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/android_studio.png" alt="Android-Studio logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/figma.png" alt="Figma logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe-XD</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe-XD logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe-Illustrator</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-illustrator.png" alt="Adobe-Illustrator logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe-Animate</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-animate.png" alt="Adobe-Animate logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="project">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Works</p>
+
+              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+
+              <p class="section-text">
+                I have done some of these projects during my course work.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="https://github.com/Vishalkumar03/ResumeAnalyzer/blob/main/Screenshot%203.jpg" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/resume_project-1.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">AI Resume Analyzer</h3>
+
+                <time class="publish-date" datetime="2024-10">October 2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Vishalkumar03/Event-Management-App/blob/main/Output%20Screenshots/5.png" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/event_project-3.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Event Management App</h3>
+
+                <time class="publish-date" datetime="2024-04">April 2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Vishalkumar03/chatbot/blob/main/Chatbot%20Design.pdf" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/chatbot_project-6.png" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">University Chatbot</h3>
+
+                <time class="publish-date" datetime="2024-05">May 2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Vishalkumar03/Hand-Gesture-Recognition/blob/main/output%20sCREENSHOTS/2023-04-05%20(2).png" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/hand_project-4.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Hand Gesture Recognition</h3>
+
+                <time class="publish-date" datetime="2023-08">August 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Vishalkumar03/Encrypted-Messaging-App" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/encrypted_project-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Encrypted Messaging APP</h3>
+
+                <time class="publish-date" datetime="2023-04">April 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+
+          <li class="hidden">
+            <a href="https://github.com/Vishalkumar03/Password-Manager" class="project-card" target="_blank">
+
+              <figure class="card-banner">
+                <img src="./assets/images/passowrd_Project-5.png" class="w-100"
+                  alt="On a dark liver background, Airport luggage car carrying a luggage.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Password Manager</h3>
+
+                <time class="publish-date" datetime="2024-01">January 2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <button class="load-more">Load more work</button>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+<!-- Certifications Section -->
+<section id="certification" class="certifications">
+  <div class="container">
+
+    <h2 class="h3 section-title">Certifications & Achievements</h2>
+    
+    <div class="certification-list">
+      <!-- Certification Card 1 -->
+      <div class="certification-card">
+        <h3>Google Business Intelligence Professional Certificate</h3>
+        <a href="https://coursera.org/share/fc7f302c16bfcf8eb52c187e69528b1d" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+
+      <!-- Certification Card 2 -->
+      <div class="certification-card">
+        <h3>Google Business Intelligence Badge (Credly)</h3>
+        <a href="https://www.credly.com/go/uzyYBdM5" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+
+      <!-- Certification Card 3 -->
+      <div class="certification-card">
+        <h3>CertNexus Certified Data Science Practitioner</h3>
+        <a href="https://coursera.org/share/5a3af220911f32df2f4b75be6f94f9f0" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+      
+      <!-- Add more certification cards as needed -->
+      <div class="certification-card">
+        <h3>Microsoft Azure SQL</h3>
+        <a href="https://www.coursera.org/account/accomplishments/verify/QHH4WBSW5QUL" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certification-card">
+        <h3>Explore Relational Database Services in Azure</h3>
+        <a href="https://learn.microsoft.com/api/achievements/share/en-us/VishalKumar-4143/748UXWJZ?sharingId=4BB506AB80E1C5B0" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certification-card">
+        <h3>Extract, Transform, and Load Data</h3>
+        <a href="https://coursera.org/verify/D4QTMEKPN66R" target="_blank" class="view-certificate">
+          View Certificate
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Please Drop a Message</h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  475 W San Carlos, SanJose, CA, 95051.
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:+14086415548" class="contact-info">(+1) 408-641-5548</a>
+
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:n.vishalrony@gmail.com" class="contact-info">n.vishalrony@gmail.com</a>
+
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+               <!-- <li>
+                  <a href="" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+
+                <li>
+                  <a href="" class="contact-social-link">
+                    <div class="tooltip">Youtube</div>
+
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+              -->
+
+                <li>
+                  <a href="https://www.linkedin.com/in/nvk-swe" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/Vishalkumar03" class="contact-social-link">
+                    <div class="tooltip">GitHub</div>
+
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="https://formspree.io/f/xanqlkab" method="POST" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Vishal Kumar" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g vishal@gmail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Vishal Kumar<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+       Copyright &copy; 2025<a href="#"></a>.
+      </p>
+
+    </div>
+  </footer>
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
