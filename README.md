@@ -64,6 +64,6 @@ Deploy with a custom domain or default URL.
 
 Feel free to reach out via email or LinkedIn for collaborations, job opportunities, or networking!
 
-Email: [n.vishalrony@gmail.com]
+Email: [n.vishal0003@gmail.com]
 
 Made with ❤️ by Vishal Kumar
